@@ -25,7 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $user_input = NULL;
             $filter = NULL;
         }
-        //IL FILTRO SUL POSTER È INUTILE FARLO
 
         $movies = get_movies($user_input, $filter);
 
@@ -51,8 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $user_input = NULL;
             $filter = NULL;
         }
-        //MANCA FILTRO DATA NASCITA
-        //MANCA FILTRO CON PIU CAMPI
 
         $actors = get_actors($user_input, $filter);
 
@@ -78,8 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $user_input = NULL;
             $filter = NULL;
         }
-        //MANCA FILTRO DATA NASCITA
-        //MANCA FILTRO CON PIU CAMPI
 
         $directors = get_directors($user_input, $filter);
 
